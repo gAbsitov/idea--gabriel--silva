@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Redragon</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/965d4f6890.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" name="boton" id="boton" />
+      <label for="boton"><i class="fa-solid fa-bars"></i></label>
+
+      <a href="index.html">
+        <img
+          class="logo"
+          width="100px"
+          height="70px"
+          src="media/redragonlogo.jpg"
+          alt="redragonlogo"
+        />
+      </a>
+      <nav>
+        <ul class="nav__lista">
+          <li><a href="#quienes-somos">Quienes Somos</a></li>
+          <li><a href="#nuestros-programas">Blog</a></li>
+          <li><a href="#contactoo">Contacto</a></li>
+          <li><a href="#faqs">Preguntas Frecuentes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>El poder del gaming <br />En la palma de tu mano</h1>
+      <button>DESCRUBE MAS!</button>
+    </section>
+
+    <section id="quienes-somos" class="nosotros">
+      <h2 class="nosotros__titulo">SOMOS REDRAGON</h2>
+      <div class="nosotros__grid">
+        <div class="nosotros__item">
+          <i class="nosotros__icono fas fa-gamepad"></i>
+          <strong>COMPETIR</strong>
+          <p class="nosotros__parrafo">
+            Lo reconocemos: somos animales competitivos y queremos ser los
+            mejores siempre. “Ambición” no es una mala palabra entre nosotros;
+            por el contrario, es una virtud: la ambición sana de competir
+            lealmente y mejorarnos a nosotros mismos. Y siempre, toque ganar o
+            perder, un GG sin ironía.
+          </p>
+        </div>
+        <div class="nosotros__item">
+          <i class="nosotros__icono fa-solid fa-meteor"></i>
+          <strong>CUBRIR UNA GRIETA</strong>
+          <p class="nosotros__parrafo">
+            Cuando decidimos constituirnos fue porque advertimos una enorme
+            grieta: por un lado, los periféricos que nos gustaban eran demasiado
+            caros; por otro, los que tenían un precio razonable eran de calidad
+            baja. Calidad de competición a un precio razonable; ese gran vacío
+            vinimos a llenar.
+          </p>
+        </div>
+        <div class="nosotros__item">
+          <i class="nosotros__icono fa-solid fa-headset"></i>
+          <strong>CRUZAR FRONTERAS</strong>
+          <p class="nosotros__parrafo">
+            Fronteras geográficas, sociales, etarias, de género, religiosas, las
+            que sean: todas las falsas barreras que limitan el gaming a un grupo
+            predefinido de personas, queremos derribarlas. Queremos llegar a tu
+            país y hablar tu misma lengua y decirte sin tapujos qué hacemos y
+            cuánto nos apasiona.
+          </p>
+        </div>
+        <div class="nosotros__item">
+          <img
+            class="nosotros__imagen"
+            src="media/somos-redragon.jpg"
+            alt="uber eats starbucks"
+          />
+        </div>
+      </div>
+
+      <div class="div__final">
+        <h2 class="nosotros__titulo">ACERCA DE NOSOTROS</h2>
+
+        <p class="nosotros__parrafo--2">
+          <strong
+            >"Cuál es el último juego que jugaste?" Generalmente, con esta
+            pregunta comenzamos las entrevistas laborales en Redragon.</strong
+          >
+        </p>
+
+        <p class="nosotros__parrafo--2">
+          Por supuesto, es solo una manera de romper el hielo, pero ilustra bien
+          el espíritu de nuestra gran familia: antes que cualquier cosa, somos
+          gamers. Y por eso mismo, pese a que estamos en distintas partes del
+          mundo, hablamos todos el mismo idioma.
+        </p>
+      </div>
+    </section>
+
+    <section id="nuestros-programas">
+      <div class="container">
+        <h2>BLOG</h2>
+        <div class="programas">
+          <div class="carta">
+            <h3>REDBORN #2: PELOPS</h3>
+            <p>
+              Presentamos los Pelops H818, un juego de auriculares con doble
+              conectividad y una calidad de sonido sobresaliente. Cómodos,
+              fieles, vistosos; geniales.
+            </p>
+            <button>+ Info</button>
+          </div>
+          <div class="carta">
+            <h3 class="reborn">REDBORN: LLEGA LO NUEVO</h3>
+            <p>
+              El gigante de los periféricos dará inicio a un nuevo capítulo con
+              el lanzamiento de una familia de productos wireless, respondiendo
+              a los pedidos de toda la comunidad. Aquí, toda la información.
+            </p>
+            <button>+ Info</button>
+          </div>
+          <div class="carta">
+            <h3>REDRAGON CATÁLOGO</h3>
+            <p>
+              Más categorías, nuevos productos destinados a la customización,
+              una nueva familia wireless y los favoritos de todos los tiempos.
+              ¡Descúbrelos!
+            </p>
+            <button>+ Info</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactoo" class="conntacto">
+      <form class="contacto">
+        <h2 class="contacto__titulo">CONTACTO</h2>
+
+        <input
+          class="contacto__nombre"
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Ingrese su Nombre..."
+        />
+        <input
+          class="contacto__email"
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Ingrese su Email..."
+        />
+        <input
+          class="contacto__telefono"
+          type="number"
+          name="telefono"
+          id="telefono"
+          placeholder="Ingrese su telefono..."
+        />
+        <textarea
+          class="contacto__mensaje"
+          name="mensaje"
+          placeholder="Escriba un mensaje..."
+        ></textarea>
+
+        <button class="boton">Enviar</button>
+      </form>
+    </section>
+
+    <section id="faqs" class="faqs">
+      <div class="div__main">
+        <h2>PREGUNTAS FRECUENTES</h2>
+        <details>
+          <summary>
+            ¿QUÉ PUEDO HACER SI EL EQUIPO NO TOMA EL MICRÓFONO DE MIS ZEUS?
+          </summary>
+          <div class="faqs__items">
+            <p class="faqs__parrafo">
+              Si tu equipo no toma el micrófono del Zeus, te sugerimos seguir
+              las siguientes indicaciones:
+            </p>
+            <ul class="faqs__lista">
+              <li class="faqs__li">
+                Desconecta el cable USB de la PC y de los auriculares.
+              </li>
+              <li class="faqs__li">
+                Conecta el micrófono a la copa de los auriculares y corrobora
+                que haga tope al conectarlo.
+              </li>
+              <li class="faqs__li">
+                Conecta el Jack 3.5 de la conexión USB a la copa de los
+                auriculares.
+              </li>
+              <li class="faqs__li">
+                Finalmente, conecta el cable USB a la PC.
+              </li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            ¿CÓMO FUNCIONA EL CONTROL DE VOLUMEN DE LOS ZEUS POR USB EN PS4?
+          </summary>
+          <div class="faqs__items">
+            <p class="faqs__parrafo">
+              La controladora de sonido del conector USB no funciona con la
+              consola.
+            </p>
+
+            <p class="faqs__parrafo">
+              El volumen se controla desde la misma consola.
+            </p>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            ¿QUÉ PUEDO HACER SI TENGO PROBLEMAS DE RUIDO EN EL MICRÓFONO O EN
+            LOS ALTAVOCES DE MIS AURICULARES?
+          </summary>
+          <div class="faqs__items">
+            <p class="faqs__parrafo">
+              <strong>“Me escuchan con ruido”.</strong> Hay algunas
+              configuraciones para mejorar la captura del micrófono de tus
+              auriculares Redragon. Hemos reunido algunos consejos generales
+              para optimizar su funcionalidad.
+            </p>
+
+            <ul class="faqs__lista">
+              <li class="faqs__li">
+                Accede a la configuración de audio y micrófono abriendo el menú
+                “Ejecutar” de Windows (tecla de Windows + R) y escribiendo
+                “mmsys.cpl”.
+              </li>
+              <li class="faqs__li">
+                Ve a la pestaña “Grabación”, haz clic derecho en la opción de
+                dispositivo y selecciona “Propiedades”.
+              </li>
+              <li class="faqs__li">
+                Sube el nivel de Volumen a 100% y (si la hay) baja la opción
+                “Mic Boost” (o similar) a 0 dB.
+              </li>
+              <li class="faqs__li">
+                Desactiva la opción AGC (Auto Gain Control) y/o la opción
+                “Amplificación de Ganancia”.
+              </li>
+              <li class="faqs__li">
+                Dependiendo de tu tarjeta de audio, puede ser que las
+                configuraciones aparezcan de diferentes formas o no están
+                disponibles.
+              </li>
+              <li class="faqs__li">
+                Finalmente, dale OK y reinicia el equipo.
+              </li>
+            </ul>
+
+            <p class="faqs__parrafo">
+              <strong> “Escucho con ruido”.</strong> Si tus auriculares están
+              presentando una cantidad inusual de ruido, realiza la siguiente
+              prueba para determinar si el problema está relacionado con la
+              energización de las piezas de tu ordenador.
+            </p>
+
+            <ul class="faqs__lista">
+              <li class="faqs__li">
+                Abre el menú Inicio y busca “Grabadora” seleccionando la
+                herramienta de grabación de audio de Windows.
+              </li>
+              <li class="faqs__li">
+                Puedes utilizar también otras herramientas de grabación a tu
+                elección (Audacity, por ejemplo).
+              </li>
+              <li class="faqs__li">
+                Graba el audio de tu voz por unos instantes y guarda el archivo.
+              </li>
+              <li class="faqs__li">
+                Graba un nuevo audio con la mano sobre el gabinete y guarde el
+                archivo con otro nombre.
+              </li>
+              <li class="faqs__li">
+                Verifica si hay sibilancias en las grabaciones: si en la primera
+                grabación escuchas sibilancias o silbidos y en la segunda
+                grabación no, el equipo está energizado.
+              </li>
+              <li class="faqs__li">
+                Para la resolución del problema, será necesaria la conexión a
+                tierra del tomacorriente donde el equipo está conectado. Esto es
+                altamente recomendado porque la energización afecta y daña otras
+                partes del equipo con el tiempo.
+              </li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            ¿CÓMO PUEDO HACER PARA ACTIVAR EL SISTEMA DE VIBRACIÓN DE MIS
+            AURICULARES?
+          </summary>
+          <div class="faqs__items">
+            <p class="faqs__parrafo">
+              Nuestros modelos de auriculares con vibración utilizan los
+              controladores de vibración como un complemento de bajos en la
+              reproducción de música, películas y juegos. Si no puedes sentir la
+              vibración, te recomendamos realizar la prueba siguiente.
+            </p>
+
+            <p class="faqs__parrafo">
+              El sistema de vibración funciona en conjunto con el volumen; por
+              lo tanto, cuanto mayor sea el volumen, mayor será la intensidad de
+              la vibración. Prueba aumentar ambos controladores (de volumen y de
+              vibración) en el auricular, configura en tu sistema operativo el
+              volumen en máximo y escucha alguna canción con bajos. Si en esas
+              condiciones no sientes la vibración, sigue la guía de abajo para
+              intentar resolver el problema.
+            </p>
+
+            <strong class="faqs__strong">Resolucion</strong>
+
+            <ul class="faqs__lista">
+              <li class="faqs__li">
+                Comprueba que el USB del auricular esté correctamente conectado.
+              </li>
+              <li class="faqs__li">
+                En los modelos Lagopasmutus y Siren P2, comprueba que la
+                conexión USB de alimentación del sistema de vibración e
+                iluminación esté conectada.
+              </li>
+              <li class="faqs__li">
+                Conecta el auricular / conector de alimentación USB a otro
+                puerto USB (preferentemente, USB 2.0).
+              </li>
+              <li class="faqs__li">
+                En último caso, prueba el auricular en otro equipo y verifica si
+                el problema persiste.
+              </li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <footer>
+      <h2 class="footer__titulo">OnlyFor <span> Gamers</span></h2>
+      <div class="redes">
+        <div class="icon">
+          <a target="_blank" href="https://www.instagram.com/redragonar/">
+            <svg heigth="80" width="80">
+              <circle
+                cx="40"
+                cy="40"
+                r="25"
+                stroke="white"
+                stroke-width="4"
+                fill="none"
+              ></circle>
+            </svg>
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </div>
+
+        <div class="icon">
+          <a target="_blank" href="https://www.facebook.com/RedragonAR/">
+            <svg heigth="80" width="80">
+              <circle
+                cx="40"
+                cy="40"
+                r="25"
+                stroke="white"
+                stroke-width="4"
+                fill="none"
+              ></circle>
+            </svg>
+            <i class="bx bxl-facebook-circle"></i>
+          </a>
+        </div>
+
+        <div class="icon">
+          <a target="_blank" href="https://twitter.com/RedragonAR">
+            <svg heigth="80" width="80">
+              <circle
+                cx="40"
+                cy="40"
+                r="25"
+                stroke="white"
+                stroke-width="4"
+                fill="none"
+              ></circle>
+            </svg>
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <div class="container">
+        <p>&copy; Derechos reservados a Redragon</p>
+      </div>
+    </footer>
+  </body>
+</html>
