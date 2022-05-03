@@ -45,7 +45,11 @@ button {
   transition: all 1s;
 }
 
-button:hover {
+/* button:hover {
+  background-color: rgb(165, 33, 33);
+} */
+
+.botonn:hover {
   background-color: rgb(165, 33, 33);
 }
 
@@ -58,6 +62,7 @@ button:hover {
   color: rgb(226, 43, 43);
 }
 
+<<<<<<< HEAD
 header {
   width: 100%;
   background-color: black;
@@ -190,9 +195,18 @@ header {
   }
 }
 
+=======
+>>>>>>> ramaparalela
 #boton {
   display: none;
 }
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
 header label {
   display: block;
   font-size: 30px;
@@ -207,6 +221,15 @@ header label:hover {
   color: red;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+}
+.nav-link:hover {
+  color: red;
+}
+
 nav ul {
   margin: 0;
   list-style: none;
@@ -216,6 +239,12 @@ nav ul {
 /* nav li {
     border-right: white solid 1px;  
   } */
+
+.fa-solid {
+  font-size: 3.5rem;
+  width: 90px;
+  height: 60px;
+}
 
 nav li a {
   display: block;
@@ -550,7 +579,6 @@ header a:hover {
 /* Pagina de Contacto */
 
 .conntacto {
-  margin: 100px 0;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
@@ -559,10 +587,15 @@ header a:hover {
     url("../media/tecladofondo.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  margin: 100px 0px 100px 0px;
+  /* margin: 100px 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+}
+.display-4 {
+  color: wheat;
+  text-align: center;
 }
 
 .contacto {
@@ -779,7 +812,7 @@ svg circle {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100%;
   }
-
+<<<<<<< HEAD
   .productos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -789,6 +822,8 @@ svg circle {
     gap: 50px;
     margin: 50px 200px;
   }
+=======
+>>>>>>> ramaparalela
 }
 
 @media screen and (max-width: 1023px) {
@@ -796,27 +831,17 @@ svg circle {
     background-color: black;
   }
 
-  header {
-    width: 100%;
-    background-color: black;
-    color: white;
-    display: block;
-    position: relative;
-    position: fixed;
-    /* z-index: 10; */
-  }
-
-  header .logo {
+  /* header .logo {
     width: 100px;
     height: 70px;
     position: absolute;
     right: 0.5rem;
     top: 1rem;
-  }
+  } */
 
   /* Boton Hamburguesa */
 
-  header label {
+  /* header label {
     display: block;
     height: auto;
     width: 50px;
@@ -840,7 +865,7 @@ svg circle {
 
   #boton:checked ~ nav {
     margin: 0;
-  }
+  } */
 
   /* Fin Boton Hamburguesa */
 
@@ -901,6 +926,7 @@ svg circle {
       ),
       url("../media/redragon-blog2.jpg");
   }
+<<<<<<< HEAD
 
   .carta:nth-child(3) {
     background-image: linear-gradient(
@@ -917,7 +943,7 @@ svg circle {
     grid-template-rows: 500px 500px 500px 500px;
     gap: 50px;
     margin: 50px 300px 50px 300px;
-  }
+
 }
 
 @media screen and (max-width: 690px) {
