@@ -62,8 +62,7 @@ button {
   color: rgb(226, 43, 43);
 }
 
-<<<<<<< HEAD
-header {
+/* header {
   width: 100%;
   background-color: black;
   color: white;
@@ -71,7 +70,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-}
+} */
 
 .logo {
   -webkit-animation: bounce-in-top 1.1s both;
@@ -195,8 +194,6 @@ header {
   }
 }
 
-=======
->>>>>>> ramaparalela
 #boton {
   display: none;
 }
@@ -812,7 +809,6 @@ svg circle {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100%;
   }
-<<<<<<< HEAD
   .productos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -822,52 +818,12 @@ svg circle {
     gap: 50px;
     margin: 50px 200px;
   }
-=======
->>>>>>> ramaparalela
 }
 
 @media screen and (max-width: 1023px) {
   body {
     background-color: black;
   }
-
-  /* header .logo {
-    width: 100px;
-    height: 70px;
-    position: absolute;
-    right: 0.5rem;
-    top: 1rem;
-  } */
-
-  /* Boton Hamburguesa */
-
-  /* header label {
-    display: block;
-    height: auto;
-    width: 50px;
-    padding-top: 1rem;
-  }
-
-  nav {
-    position: absolute;
-    background-color: black;
-    width: 70%;
-    margin-left: -70%;
-    transition: all 0.5s;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-  nav li {
-    border-top: solid 1px white;
-  }
-
-  #boton:checked ~ nav {
-    margin: 0;
-  } */
-
-  /* Fin Boton Hamburguesa */
 
   .nosotros__grid {
     display: grid;
@@ -926,7 +882,6 @@ svg circle {
       ),
       url("../media/redragon-blog2.jpg");
   }
-<<<<<<< HEAD
 
   .carta:nth-child(3) {
     background-image: linear-gradient(
