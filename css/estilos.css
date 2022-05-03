@@ -510,9 +510,6 @@ header a:hover {
   justify-content: center;
 }
 
-/* footer .container {
-  justify-content: flex-end;
-} */
 
 #nuestros-programas .container {
   padding: 150px 12px;
@@ -941,4 +938,5 @@ svg circle {
   footer p {
     text-align: center;
   }
+}
 }
