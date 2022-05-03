@@ -45,7 +45,11 @@ button {
   transition: all 1s;
 }
 
-button:hover {
+/* button:hover {
+  background-color: rgb(165, 33, 33);
+} */
+
+.botonn:hover {
   background-color: rgb(165, 33, 33);
 }
 
@@ -58,19 +62,16 @@ button:hover {
   color: rgb(226, 43, 43);
 }
 
-header {
-  width: 100%;
-  background-color: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-}
-
 #boton {
   display: none;
 }
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
 header label {
   display: block;
   font-size: 30px;
@@ -85,16 +86,30 @@ header label:hover {
   color: red;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+}
+.nav-link:hover {
+  color: red;
+}
+
 nav ul {
   margin: 0;
   list-style: none;
   padding: 0;
-
 }
 
 /* nav li {
     border-right: white solid 1px;  
   } */
+
+.fa-solid {
+  font-size: 3.5rem;
+  width: 90px;
+  height: 60px;
+}
 
 nav li a {
   display: block;
@@ -307,7 +322,6 @@ header a:hover {
 /* Pagina de Contacto */
 
 .conntacto {
-  margin: 100px 0;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
@@ -316,10 +330,15 @@ header a:hover {
     url("../media/tecladofondo.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  margin: 100px 0px 100px 0px;
+  /* margin: 100px 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+}
+.display-4 {
+  color: wheat;
+  text-align: center;
 }
 
 .contacto {
@@ -376,7 +395,6 @@ header a:hover {
 
 .preguntas {
   color: white;
-  
 }
 
 .faqs {
@@ -532,11 +550,11 @@ svg circle {
 }
 
 @media screen and (max-width: 1300px) {
-    .nosotros__grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 100%;
-      }
+  .nosotros__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100%;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -545,35 +563,34 @@ svg circle {
   }
 
   header {
-    width: 100%;
+    /* 
     background-color: black;
     color: white;
     display: block;
     position: relative;
     position: fixed;
-    /* z-index: 10; */
+    z-index: 10; */
   }
 
-  header .logo {
+  /* header .logo {
     width: 100px;
     height: 70px;
-    position:absolute;
-    right: .5rem;
+    position: absolute;
+    right: 0.5rem;
     top: 1rem;
-  }
+  } */
 
   /* Boton Hamburguesa */
 
-  header label {
+  /* header label {
     display: block;
     height: auto;
     width: 50px;
     padding-top: 1rem;
-    
   }
 
   nav {
-    position: absolute; 
+    position: absolute;
     background-color: black;
     width: 70%;
     margin-left: -70%;
@@ -589,7 +606,7 @@ svg circle {
 
   #boton:checked ~ nav {
     margin: 0;
-  }
+  } */
 
   /* Fin Boton Hamburguesa */
 
@@ -599,69 +616,66 @@ svg circle {
     grid-template-rows: 500px 500px;
   }
 
-  #nuestros-programas{
-    background-color: rgb(30,30,30);
+  #nuestros-programas {
+    background-color: rgb(30, 30, 30);
     color: white;
     text-align: center;
-}
+  }
 
-#nuestros-programas .container{
-  padding: 150px 12px;
-  display: flex;
-  flex-direction: column;
-}
+  #nuestros-programas .container {
+    padding: 150px 12px;
+    display: flex;
+    flex-direction: column;
+  }
 
-#nuestros-programas .programas{
-  display: flex;
-  flex-direction: column;
-}
+  #nuestros-programas .programas {
+    display: flex;
+    flex-direction: column;
+  }
 
-#nuestros-programas h2{
-  margin-top: 0;
-  font-size: 3.2em;
-}
+  #nuestros-programas h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+  }
 
-#nuestros-programas p{
-  display: none;
-}
+  #nuestros-programas p {
+    display: none;
+  }
 
-#nuestros-programas .carta{
-  background-position: center center;
-  background-size: cover;
-  padding: 50px 0px;
-  margin: 30px;
-  border-radius: 15px;
-}
+  #nuestros-programas .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+  }
 
-.carta:first-child{
-  background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )
-  ,url("../media/redragon-blog1.jpg");
+  .carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../media/redragon-blog1.jpg");
+  }
 
-}
+  .carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../media/redragon-blog2.jpg");
+  }
 
-.carta:nth-child(2){
-  background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )
-  ,url("../media/redragon-blog2.jpg");
-}
-
-.carta:nth-child(3){
-  background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )
-  ,url("../media/redragon-blog3.jpg");
-
-}
-
+  .carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../media/redragon-blog3.jpg");
+  }
 }
 
 @media screen and (max-width: 690px) {
@@ -676,15 +690,14 @@ svg circle {
   }
 
   details {
-width: 100%;
+    width: 100%;
   }
 
-  .div__main h2{
-    text-align: center;
-  }
-  
-  footer p{
+  .div__main h2 {
     text-align: center;
   }
 
+  footer p {
+    text-align: center;
+  }
 }
