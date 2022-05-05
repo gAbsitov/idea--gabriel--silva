@@ -233,10 +233,6 @@ nav ul {
   padding: 0;
 }
 
-/* nav li {
-    border-right: white solid 1px;  
-  } */
-
 .fa-solid {
   font-size: 3.5rem;
   width: 90px;
@@ -313,6 +309,81 @@ header a:hover {
   font-size: 1.75em;
 }
 
+.footer__titulo--inicio {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.footer__titulo--inicio span {
+  color: red;
+}
+
+.cartas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  background-image: linear-gradient(
+    180deg,
+    #000000 0%,
+    #070e1e 50%,
+    #000000 100%
+  );
+
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cartas strong {
+  color: red;
+}
+
+.newsletter {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/newsletter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 45vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  text-align: justify;
+}
+
+.newsletter__uno {
+  width: 750px;
+  padding-left: 6rem;
+  color: white;
+}
+
+.newsletter__dos {
+  margin-right: 5rem;
+  color: white;
+}
+
+.newsletter__dos input {
+  font-size: 30px;
+}
+
+.newsletter__dos .btn {
+  margin-left: 1rem;
+  font-size: 23px;
+}
 /* Pagina de Quienes somos */
 
 .nosotros {
@@ -373,7 +444,24 @@ header a:hover {
   display: block;
 }
 
+.footer__titulo--somos {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.footer__titulo--somos span {
+  color: red;
+}
+
 /* Pagina de Productos */
+
+.mt-5 {
+  margin-top: 500px;
+}
 
 .productos {
   display: flex;
@@ -381,6 +469,12 @@ header a:hover {
   align-items: center;
   margin: 50px 50px;
   gap: 30px;
+  margin-bottom: 100px;
+}
+
+#productos {
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .productos__titulo {
@@ -504,13 +598,19 @@ header a:hover {
   min-height: 100vh;
   display: flex;
   flex-direction: row;
+  background-color: #000000;
+  background-image: linear-gradient(
+    180deg,
+    #000000 0%,
+    #1e1e1e 50%,
+    #000000 100%
+  );
 }
 
 #nuestros-programas .programas {
   display: flex;
   justify-content: center;
 }
-
 
 #nuestros-programas .container {
   padding: 150px 12px;
@@ -571,7 +671,27 @@ header a:hover {
     url("../media/redragon-blog3.jpg");
 }
 
+.footer__titulo--blog {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.footer__titulo--blog span {
+  color: red;
+}
+
 /* Pagina de Contacto */
+.header__contacto {
+  width: 100%;
+  top: 0;
+}
+.div__contacto {
+  padding-bottom: 50px;
+}
 
 .conntacto {
   background-image: linear-gradient(
@@ -587,7 +707,9 @@ header a:hover {
   display: flex;
   justify-content: center;
   align-items: center; */
+  padding-top: 50px;
 }
+
 .display-4 {
   color: wheat;
   text-align: center;
@@ -649,13 +771,52 @@ header a:hover {
   color: white;
 }
 
-.faqs {
-  background-image: url(../media/fondofaqs.jpg);
+.faqs__1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/faqsfondo.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5rem;
+  padding-bottom: 1rem;
+  color: wheat;
 }
+
+.faqs {
+  background-color: #000000;
+  background-image: linear-gradient(
+    180deg,
+    #000000 0%,
+    #030912 50%,
+    #000000 100%
+  );
+  background-size: cover;
+}
+
+.footer__titulo--faqs {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.footer__titulo--faqs span {
+  color: red;
+}
+
 .div__main {
-  /* background-image: url(../media/fondofaqs.jpg); */
-  padding: 2rem;
-  margin: 3rem 0rem;
+  margin-top: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -720,6 +881,7 @@ details[open] summary::before {
   gap: 30px;
   margin-top: 20px;
 }
+/* final faqs*/
 
 footer {
   background-color: rgb(0, 0, 0);
@@ -896,49 +1058,59 @@ svg circle {
     grid-template-rows: 500px 500px 500px 500px;
     gap: 50px;
     margin: 50px 300px 50px 300px;
-
-}
-
-@media screen and (max-width: 690px) {
-  body {
-    background-color: black;
   }
 
-  .nosotros__grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 500px 500px 500px 500px;
+  @media screen and (max-width: 850px) {
+    .cartas {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
-  .productos {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 500px;
-    gap: 100px;
-    margin: 100px 0px 100px 0px;
-    width: 100%;
-  }
+  @media screen and (max-width: 690px) {
+    body {
+      background-color: black;
+    }
 
-  .imagen__parrafo {
-    color: wheat;
-    padding: 3.5rem;
-    display: flex;
-    font-style: italic;
-    text-align: center;
-    width: 100%;
-  }
+    .nosotros__grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 500px 500px 500px 500px;
+    }
 
-  details {
-    width: 100%;
-  }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 500px 500px 500px 500px;
+      gap: 100px;
+      margin: 100px 0px 100px 0px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
-  .div__main h2 {
-    text-align: center;
-  }
+    .imagen__parrafo {
+      color: wheat;
+      padding: 3.5rem;
+      display: flex;
+      font-style: italic;
+      text-align: center;
+      width: 100%;
+    }
 
-  footer p {
-    text-align: center;
-  }
-}
+    details {
+      width: 100%;
+    }
 
+    .div__main h2 {
+      text-align: center;
+    }
+
+    footer p {
+      text-align: center;
+    }
+  }
 }
