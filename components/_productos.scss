@@ -1,0 +1,131 @@
+/* Pagina de Productos */
+
+.mt-5 {
+  margin-top: 500px;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 50px;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+#productos {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.productos__titulo {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 40px;
+  color: wheat;
+  padding-top: 3rem;
+}
+
+.div__imagenes--1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/teclado.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  transition: all 1s;
+}
+
+.div__imagenes--1:hover {
+  width: 450px;
+  height: 450px;
+  display: block;
+}
+
+.div__imagenes--2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/auri.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  transition: all 1s;
+}
+
+.div__imagenes--2:hover {
+  width: 450px;
+  height: 450px;
+}
+
+.div__imagenes--3 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/camaras.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  transition: all 1s;
+}
+
+.div__imagenes--3:hover {
+  width: 450px;
+  height: 450px;
+}
+
+.div__imagenes--4 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/ratones.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  transition: all 1s;
+}
+
+.div__imagenes--4:hover {
+  width: 450px;
+  height: 450px;
+}
+
+.productos__texto {
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.imagenes__titulo {
+  color: wheat;
+  top: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.imagen__parrafo {
+  color: wheat;
+  bottom: 0;
+  padding: 0rem 1rem;
+  text-align: center;
+  font-style: italic;
+  display: flex;
+  align-items: flex-end;
+}

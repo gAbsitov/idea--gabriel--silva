@@ -1,0 +1,151 @@
+@media screen and (max-width: 1300px) {
+  .nosotros__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100%;
+  }
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 200px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body {
+    background-color: black;
+  }
+
+  .nosotros__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px 500px;
+  }
+
+  #nuestros-programas {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+  }
+
+  #nuestros-programas .container {
+    padding: 150px 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nuestros-programas .programas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nuestros-programas h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+  }
+
+  #nuestros-programas p {
+    display: none;
+  }
+
+  #nuestros-programas .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+  }
+
+  .carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../media/redragon-blog1.jpg");
+  }
+
+  .carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../media/redragon-blog2.jpg");
+  }
+
+  .carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../media/redragon-blog3.jpg");
+  }
+
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 500px 500px 500px 500px;
+    gap: 50px;
+    margin: 50px 300px 50px 300px;
+  }
+
+  @media screen and (max-width: 850px) {
+    .cartas {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    body {
+      background-color: black;
+    }
+
+    .nosotros__grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 500px 500px 500px 500px;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 500px 500px 500px 500px;
+      gap: 100px;
+      margin: 100px 0px 100px 0px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .imagen__parrafo {
+      color: wheat;
+      padding: 3.5rem;
+      display: flex;
+      font-style: italic;
+      text-align: center;
+      width: 100%;
+    }
+
+    details {
+      width: 100%;
+    }
+
+    .div__main h2 {
+      text-align: center;
+    }
+
+    footer p {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,117 @@
+/* Pagina de FAQS */
+
+.preguntas {
+  color: white;
+}
+
+.faqs__1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/faqsfondo.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5rem;
+  padding-bottom: 1rem;
+  color: wheat;
+}
+
+.faqs {
+  background-color: #000000;
+  background-image: linear-gradient(
+    180deg,
+    #000000 0%,
+    #030912 50%,
+    #000000 100%
+  );
+  background-size: cover;
+}
+
+.footer__titulo--faqs {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.footer__titulo--faqs span {
+  color: red;
+}
+
+.div__main {
+  margin-top: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+}
+
+details {
+  background-color: #131312;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin: 0.5rem;
+  cursor: pointer;
+  color: white;
+  border: inset 2px white;
+  width: 650px;
+  display: flex;
+
+  gap: 30px;
+}
+
+summary {
+  list-style: none;
+  font-size: 17px;
+  text-align: center;
+}
+
+summary::before {
+  content: "+";
+  padding-right: 1rem;
+  font-size: 20px;
+}
+
+details[open] summary::before {
+  content: "-";
+  font-size: 20px;
+}
+
+.faqs__items {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #828282;
+}
+
+.faqs__parrafo strong {
+  margin-top: 1.5rem;
+  color: red;
+}
+
+.faqs__strong {
+  margin-top: 1.5rem;
+  color: red;
+}
+
+.faqs__lista {
+  display: flex;
+  flex-direction: column;
+  list-style: decimal;
+  padding-left: 1rem;
+  gap: 30px;
+  margin-top: 20px;
+}
+/* final faqs*/

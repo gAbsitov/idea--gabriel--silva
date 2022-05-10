@@ -1,0 +1,79 @@
+footer {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+  color: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+footer .container {
+  display: flex;
+}
+
+.footer__titulo {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer__titulo span {
+  color: red;
+}
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 50%;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #e60073;
+  box-shadow: 0 0 20px #e60073;
+}
+
+.icon:hover:nth-child(2) {
+  background-color: #03326e;
+  box-shadow: 0 0 20px #03387c;
+}
+
+.icon:hover:nth-child(3) {
+  background-color: #1da1f2;
+  box-shadow: 0 0 20px #1da1f2;
+}
+
+.icon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+}
+
+svg circle {
+  stroke-dasharray: 110;
+  transition: all 0.8s ease-in-out;
+}
+
+.icon:hover circle {
+  stroke-dasharray: 220;
+}
