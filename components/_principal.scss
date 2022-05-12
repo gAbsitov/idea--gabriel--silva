@@ -149,18 +149,25 @@ button {
   width: 750px;
   padding-left: 6rem;
   color: white;
+
+  input {
+    font-size: 25px;
+    display: none;
+  }
 }
 
 .newsletter__dos {
   margin-right: 5rem;
   color: white;
-}
 
-.newsletter__dos input {
-  font-size: 30px;
-}
+  input {
+    font-size: 25px;
+    margin: auto;
+  }
 
-.newsletter__dos .btn {
-  margin-left: 1rem;
-  font-size: 23px;
+  .btn {
+    margin-left: 0.5rem;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
 }

@@ -94,6 +94,20 @@
     gap: 50px;
     margin: 50px 300px 50px 300px;
   }
+  .newsletter__uno {
+    width: 750px;
+    padding-left: 2rem;
+    padding: 2rem;
+    color: white;
+
+    input {
+      display: block;
+    }
+  }
+
+  .newsletter__dos {
+    display: none;
+  }
 
   @media screen and (max-width: 850px) {
     .cartas {
