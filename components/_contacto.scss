@@ -39,31 +39,8 @@
   top: 200px;
 }
 
-.contacto__titulo {
-  color: white;
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.contacto__nombre,
-.contacto__email,
-.contacto__telefono,
-.contacto__mensaje,
-.boton {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  font-size: 17px;
-  border: none;
-}
-
-.contacto__mensaje {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
+.contacto__titulo{
+  @extend .hero__h1;
 }
 
 .boton {

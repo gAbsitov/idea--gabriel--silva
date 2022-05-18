@@ -22,11 +22,18 @@ footer .container {
   color: white;
   justify-content: center;
   width: 100%;
+
+  span {
+    color: red;
+  }
 }
 
-.footer__titulo span {
-  color: red;
-}
+$colores: (
+  color-1: #e60073,
+  color-2: #03326e,
+  color-3: #1da1f2,
+);
+
 .redes {
   display: flex;
   justify-content: center;
@@ -46,17 +53,17 @@ footer .container {
 }
 
 .icon:hover {
-  background-color: #e60073;
+  background-color: map-get($colores, color-1);
   box-shadow: 0 0 20px #e60073;
 }
 
 .icon:hover:nth-child(2) {
-  background-color: #03326e;
+  background-color: map-get($colores, color-2);
   box-shadow: 0 0 20px #03387c;
 }
 
 .icon:hover:nth-child(3) {
-  background-color: #1da1f2;
+  background-color: map-get($colores, color-3);
   box-shadow: 0 0 20px #1da1f2;
 }
 

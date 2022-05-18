@@ -19,7 +19,7 @@
   align-items: flex-end;
   padding-left: 5rem;
   padding-bottom: 1rem;
-  color: wheat;
+  @extend .hero__h1;
 }
 
 .faqs {
@@ -34,17 +34,9 @@
 }
 
 .footer__titulo--faqs {
-  display: flex;
-  font-size: 30px;
-  color: white;
-  justify-content: center;
-  width: 100%;
-  padding-top: 2rem;
+  @include footer-titulo()
 }
 
-.footer__titulo--faqs span {
-  color: red;
-}
 
 .div__main {
   margin-top: 10px;

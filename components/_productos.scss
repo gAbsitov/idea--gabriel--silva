@@ -19,11 +19,7 @@
 }
 
 .productos__titulo {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 40px;
-  color: wheat;
-  padding-top: 3rem;
+  @extend .hero__h1;
 }
 
 .div__imagenes--1 {
@@ -33,6 +29,7 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("../media/teclado.jpg");
+
   background-size: cover;
   background-position: center;
   width: 400px;
@@ -43,7 +40,6 @@
 .div__imagenes--1:hover {
   width: 450px;
   height: 450px;
-  display: block;
 }
 
 .div__imagenes--2 {
@@ -53,6 +49,7 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("../media/auri.jpg");
+
   background-size: cover;
   background-position: center;
   width: 400px;
@@ -91,6 +88,7 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("../media/ratones.jpg");
+
   background-size: cover;
   background-position: center;
   width: 400px;
@@ -104,7 +102,7 @@
 }
 
 .productos__texto {
-  color: wheat;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -112,7 +110,7 @@
 }
 
 .imagenes__titulo {
-  color: wheat;
+  color: white;
   top: 0;
   padding: 1rem;
   text-align: center;
@@ -121,7 +119,7 @@
 }
 
 .imagen__parrafo {
-  color: wheat;
+  color: white;
   bottom: 0;
   padding: 0rem 1rem;
   text-align: center;

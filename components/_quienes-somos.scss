@@ -4,7 +4,6 @@
   align-items: center;
   padding: 100px 1rem;
   min-height: 100vh;
-  /* background-color: #131312; */
   background-color: rgb(8, 0, 0);
   color: wheat;
 }
@@ -63,14 +62,5 @@
 }
 
 .footer__titulo--somos {
-  display: flex;
-  font-size: 30px;
-  color: white;
-  justify-content: center;
-  width: 100%;
-  padding-top: 2rem;
-}
-
-.footer__titulo--somos span {
-  color: red;
+  @include footer-titulo()
 }

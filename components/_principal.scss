@@ -78,6 +78,7 @@ button {
 
   &__h1 {
     color: white;
+    text-align: center;
   }
 
   &__botonn {
@@ -89,17 +90,21 @@ button {
   }
 }
 
-.footer__titulo--inicio {
+@mixin footer-titulo {
   display: flex;
   font-size: 30px;
   color: white;
   justify-content: center;
   width: 100%;
   padding-top: 2rem;
+
+  span {
+    color: $primary;
+  }
 }
 
-.footer__titulo--inicio span {
-  color: red;
+.footer__titulo--inicio {
+  @include footer-titulo();
 }
 
 .cartas {
