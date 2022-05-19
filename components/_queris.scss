@@ -95,15 +95,21 @@
     margin: 50px 300px 50px 300px;
   }
   .newsletter__uno {
-    width: 750px;
+    width: 100%;
     padding-left: 2rem;
-    padding: 2rem;
+    padding-right: 2rem;
     color: white;
 
     input {
       display: block;
+      width: 300px;
+    }
+
+    a{
+      display: block;
     }
   }
+
 
   .newsletter__dos {
     display: none;
@@ -122,11 +128,25 @@
       background-color: black;
     }
 
+    .newsletter__uno {
+      width: 100%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      color: white;
+  
+      input {
+        display: block;
+        width: 100%;
+      }
+    }
+
     .nosotros__grid {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: 500px 500px 500px 500px;
     }
+
+    
 
     .productos {
       display: grid;

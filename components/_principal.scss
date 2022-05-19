@@ -151,15 +151,23 @@ li {
 }
 
 .newsletter__uno {
-  width: 750px;
+  width: 50%;
   padding-left: 6rem;
   color: white;
+  gap: 1rem;
 
   input {
     font-size: 25px;
     display: none;
   }
+
+  a {
+    display: none;
+    width: 65px;
+    margin-top: 1rem;
+  }
 }
+
 
 .newsletter__dos {
   margin-right: 5rem;
