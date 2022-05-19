@@ -39,16 +39,21 @@
   top: 200px;
 }
 
-.contacto__titulo{
+.contacto__titulo {
   @extend .hero__h1;
 }
 
-.boton {
-  background-color: #d537ca;
+.boton-c {
   color: white;
-  padding: 20px;
-}
+  display: flex;
+  justify-content: center;
+  transition: all 1s;
 
-.boton:hover {
-  cursor: pointer;
+  .boton-cc {
+    transition: all 1s;
+  }
+
+  .boton-cc:hover {
+    background-color: red;
+  }
 }
